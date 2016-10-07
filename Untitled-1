@@ -1,0 +1,48 @@
+<View style={{
+                flexDirection : 'row', 
+                backgroundColor : 'skyblue',
+                height : 60,
+                paddingTop : 30,
+                alignItems :'center'
+
+            }}>
+
+            <View style={{
+                flex : 4,
+                alignItems : 'center',
+                justifyContent : 'center',
+                paddingLeft : 60,
+                paddingBottom : 10,
+                borderColor:'black',
+                borderWidth:1,
+                flexDirection : 'row'
+                
+                
+            }}>
+            <View style={{
+                flexDirection : 'row',
+                alignItems :'center',
+                justifyContent : 'center'
+            }}>
+            <Text style ={{color : 'white',textAlign : 'center'}}>{this.props.title}</Text>
+            </View>
+            </View>
+
+
+            <View style={{
+                flex : 1,
+                alignItems : 'center',
+                justifyContent : 'center',
+                paddingLeft : 60,
+                paddingBottom : 10,
+                borderColor:'black',
+                borderWidth:1
+                
+            }}>
+            <Icon name="ios-menu" size={25} color="white" />
+
+            </View>
+
+
+
+            </View>
